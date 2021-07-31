@@ -1,6 +1,6 @@
 export interface IOctosellsIcons {
-  size?: number;
-  width?: number;
-  height?: number;
-  color?: string;
+    size?: number;
+    width?: number;
+    height?: number;
+    color?: string;
 }

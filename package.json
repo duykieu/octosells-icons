@@ -10,6 +10,7 @@
     "build:icons": "lerna run build --scope=@octosells/icons --stream",
     "build:web": "lerna run build --scope=@octosells/icons-web --stream",
     "build": "lerna run build --scope=@octosells/icons --stream && lerna run build --scope=@octosells/icons-web --stream ",
-    "start": "lerna run start --stream"
+    "start": "lerna run start --stream",
+    "deploy": "lerna run deploy"
   }
 }
