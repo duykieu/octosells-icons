@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "prettier": "^2.3.2"
+  },
+  "scripts": {
+    "generate": "lerna run generate",
+    "build:icons": "lerna run build --scope=@octosells/icons --stream",
+    "build:web": "lerna run build --scope=@octosells/icons-web --stream",
+    "build": "lerna run build --scope=@octosells/icons --stream && lerna run build --scope=@octosells/icons-web --stream ",
+    "start": "lerna run start --stream"
+  }
+}
