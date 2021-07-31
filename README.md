@@ -1,4 +1,4 @@
-# Octosells Icons Pakcage
+# Octosells Icons Package
 
 ## Installation
 
